@@ -40,3 +40,17 @@ const myFunction=function(){
 console.log(typeof(5n));
 console.log(typeof(myObj));
 console.log(typeof(myFunction));
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack((primitive data type ,it give copy)) , Heap(non primitive,it give reference)
+
+let MyName="hellosir"
+
+let anothename="mynameis"
+
+anothename="hisir"
+console.log(anothename);
+
+
