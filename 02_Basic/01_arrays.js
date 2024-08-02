@@ -19,13 +19,14 @@ const myArray=[0,1,2,3,4,5,"suraj"]
 
 console.log("A ",myArray);
 
-const myn1 =myArray.slice(1,3)
+const myn1 =myArray.slice(1,3)//give output of slice
 console.log(myn1);
 console.log("B ",myArray);
 
-const myn2 =myArray.splice(1,3)
+const myn2 =myArray.splice(1,3)// delete the elements
 console.log("c ",myArray);
 console.log(myn2);
+
 
 
 
